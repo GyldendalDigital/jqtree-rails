@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ['Ryan Scott Lewis', 'Mario Uher']
   s.email       = ['ryan@rynet.us', 'uher.mario@gmail.com']
   s.homepage    = 'https://github.com/RyanScottLewis/jqtree-rails'
-  s.summary     = 'Use jqTree with Rails 3'
-  s.description = 'This gem provides jqTree assets for your Rails 3 application.'
+  s.summary     = 'Use jqTree with Rails 4'
+  s.description = 'This gem provides jqTree assets for your Rails 4 application.'
 
   s.required_rubygems_version = '>= 1.3.6'
 

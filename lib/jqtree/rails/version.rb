@@ -1,6 +1,6 @@
 module JqTree
   module Rails
-    VERSION = "0.1.8.1"
-    JQTREE_VERSION = "0.18"
+    VERSION = "1.2.1.0"
+    JQTREE_VERSION = "1.2.1"
   end
 end

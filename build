@@ -1,3 +1,11 @@
-cp jqTree/jqtree-circle.png vendor/assets/images
-cp jqTree/tree.jquery.js vendor/assets/javascripts
-cp jqTree/jqtree.css vendor/assets/stylesheets
+mkdir jqTree
+cd jqTree
+wget http://mbraak.github.io/jqTree/tree.jquery.js
+wget http://mbraak.github.io/jqTree/jqtree.css
+wget http://mbraak.github.io/jqTree/jqtree-circle.png
+cd ..
+
+mv jqTree/jqtree-circle.png vendor/assets/images
+mv jqTree/tree.jquery.js vendor/assets/javascripts
+mv jqTree/jqtree.css vendor/assets/stylesheets
+rmdir jqTree
